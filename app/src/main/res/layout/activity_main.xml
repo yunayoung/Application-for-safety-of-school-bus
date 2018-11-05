@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:background="@drawable/round_button"
+        android:text="CHECK CHILDREN" />
+
+    <Button
+        android:id="@+id/bt_connect"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+        android:background="@drawable/round_button"
+        android:text="CONNECT DEVICE" />
+
+    <EditText
+        android:id="@+id/receiveString"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/bt_connect"
+        android:layout_alignRight="@+id/bt_connect"
+        android:layout_below="@+id/bt_connect"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
